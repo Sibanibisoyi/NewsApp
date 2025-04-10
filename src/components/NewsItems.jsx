@@ -199,7 +199,7 @@ function NewsItems() {
                 image_url={article.urlToImage || "no image available"}
                 read={article.url || "#"}
               />
-            );
+            )
           })}
         </div>
       </div>
