@@ -193,6 +193,7 @@ function NewsItems() {
           {response.map((article) => {
             return (
               <NewsBox
+                key={article.url}
                 description={article.description || "No description available"}
                 title={article.title || "No title available"}
                 image_url={article.urlToImage || "no image available"}
