@@ -176,7 +176,7 @@ function NewsItems() {
                 image_url={article.image_url}
                 read={article.link}
               />
-            );
+            )
           })}
         </div>
       </div>
