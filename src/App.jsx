@@ -5,6 +5,7 @@ function App() {
   
   return (
     <div className='container ml-auto mr-auto'>
+      {/* some small changes */}
       <NewsItems/>
     </div>
   )
